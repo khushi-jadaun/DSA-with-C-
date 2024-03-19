@@ -1,0 +1,24 @@
+ques1...
+for(i=0;i<=n;i++){
+      Block of codes;
+}
+
+Time complexity:-  O(n)
+Reason:- It will run n times
+
+ques2...
+for(i=0;i<n;i++){
+for(j=0;j<=n;i++){
+      Block of codes;
+}}
+
+Time Complexity:-  O(n^2)
+
+
+ques3...
+for(i=0;i<n;i++){
+for(j=0;j<i;j++){
+Block of codes;
+}}
+
+Time Comlpexity:- O(n^2)       #more precisely:-  O(n^2/2 + n/2)
